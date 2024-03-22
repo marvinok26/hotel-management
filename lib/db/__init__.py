@@ -2,6 +2,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 
+
 # Database connection string
 DB_URL = 'sqlite:///lib/db/hoteldb.db'
 
